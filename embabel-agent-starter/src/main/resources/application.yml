@@ -1,0 +1,11 @@
+server.port: 8080
+spring:
+  ai:
+    openai:
+      api-key: "sk-a9f0ea0e81674b1a9a0bd558fb7f8204"
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-chat
+          temperature: 0.5
+
