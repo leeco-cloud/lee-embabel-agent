@@ -23,6 +23,11 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.lee.embabel.agent</groupId>
+                <artifactId>embabel-agent-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-api</artifactId>
                 <version>1.7.36</version>
@@ -37,7 +42,7 @@
             <dependency>
                 <groupId>org.springframework.ai</groupId>
                 <artifactId>spring-ai-bom</artifactId>
-                <version>1.0.0-M5</version>
+                <version>0.8.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
